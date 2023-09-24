@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 2%;
+}
+
+header{
+    background-color: red;
+    padding: 20px 0;
+}
+
+nav{
+    padding-top: 65px;
+    text-align: right;
+    width: 83%;
+}
+
+nav a{
+    color: white;
+    font-family: cursive;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+
+.SPFC{
+    font-weight: bold;
+    text-align: center;
+}
+
+.redes img{
+    text-align: center;
+    width: 80px;
+    
+}
+
+.redes{
+    text-align: center;
+}
+
+.morumbi{
+    background-color: red;
+    margin: auto;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.morumbi img{
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.nav-list{
+    list-style-type: none;
+}
+
+.nav-list li{
+    display: inline;
+}
+
+
+@media only screen and (max-width: 1007px){
+    
+    .center{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-item a{
+        display: inline-block;
+        border: 1px solid white;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-item a:active{
+        background-color: rgb(139 0 0);
+    }
+
+
+    .open{
+        display: block;
+    }
+
+    .redes img{
+        text-align: center;
+        width: 50px;
+    }
+
+    .escudo img{
+        width: 100px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    .nav-bar{
+        padding: 1.5 rem 4 rem;
+        width: 100%;
+    }
+    
+    .center{
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-item a{
+        display: inline-block;
+        border: 1px solid white;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-item a:active{
+        background-color: rgb(139 0 0);
+    }
+
+    .open{
+        display: block;
+    }
+
+    .redes img{
+        width: 35px;
+    }
+
+    .escudo img{
+        width: 85px;
+    }
+
+    .titulo{
+        font-size: 15px;
+    }
+}
